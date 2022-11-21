@@ -1,0 +1,93 @@
+/* lineas de comentario*/
+
+/* reset*/
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+/*propiedades del contenedor*/
+
+.contenedor{
+    height: 700px;
+    background-color: tomato;
+    display: flex;
+
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+
+
+}
+
+
+/* propiedades de los hijos*/
+.hijos{
+width: 150px;
+height: 150px;
+background-color: whitesmoke;
+margin: 10px;
+}
+
+
+/*estilos de practico*/
+body{
+background-color: tomato;
+
+
+}
+/*estilos de header*/
+
+header{
+    
+padding: 10px;
+    background-color: whitesmoke;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+header nav ul{
+list-style: none;
+display: flex;
+gap: 30px;
+
+
+}
+
+header nav ul li{
+background-color: blueviolet;
+padding: 10px;
+border-radius: 30px;
+text-shadow: 1px 1px 2px blue;
+box-shadow: 1px 1px 3px black;
+
+}
+/*estilos del main*/
+
+main{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+gap: 30px;
+
+}
+main .noticia-uno, main .noticia-dos{
+    text-align: center;
+    width: 400px;
+}
+main .noticia-uno{
+    background-color: cyan;
+}
